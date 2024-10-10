@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--Animación-->
+    <link rel="stysheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+
+    <!--Fonts-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+    <!--CSS conexión-->
+    <link rel="stylesheet" href="/style.css">
+
+    <title>Portafolio | Estefany</title>
+</head>
+<body>
+    <nav>
+        <h1>Estefany Monserrat Hernández Mendieta</h1>
+
+        <!--Menú de navegación-->
+        <ul class="navigation">
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#skills" class="nav-link">Skills</a></li>
+            <li><a href="#projects" class="nav-link">Projects</a></li>
+            <li><a href="#contact" class="nav-link"> Contact</a></li>
+
+        </ul>
+        <button class="burger-menu" id="burger-menu">
+            <ion-icon class="bars" name="menu-ontline"></ion-icon>
+        </button>
+    </nav>
+
+    <!--Hero-->
+    <section class="hero" id="about">
+        <img src="images/perfil.jpeg" alt="Perfil" class="hero-img">
+        <div class="bio" animate__animated animate__shakeX>
+            <h2 class="bio-title">About Me</h2>
+            <p class="biotext">
+                <b>¡Hola! Me presento soy Estefany Monserrat Hernández Mendieta 💫, Lienciada en Comunicación e Innovació Educativa, egresada de la UATx 👩🏻‍🎓.</b>
+            </p>
+        </div>
+    </section>
+
+    <!--More about me-->
+    <section class="more-about">
+        <h2>More About Me</h2>
+        <p>>Soy una persona interesada en el mundo de la tecnología 💻. No soy apasionada, pero como educomunIcóloga, me interesa para estar al pendiente de las nuevas tendencias para poder aplicarlas en al área de la educación 👩🏻‍🏫 presencial y en línea.</p>
+        <p>Durante el transcurso de la universidad, participe en la elaboración de varios trabajos audiovisuales 📷, entre los que destacan un documental del proceso de producción del pulque en en municipio de Nanacamilpan, así como una campaña en redes sociales para la visibilizar los trabajos más destacados ⭐ de los diferentes semestres de la licenciatura.</p>
+        <p>ntre de las cosas que más me gustan está ayudar a los demás a adquirir más competencias y habilidades🪛👩🏻‍💻, dialogar 🗣️ con las personas para enriquecer mi conocimiento🧠 y poder comprender el mundo desde una perspectiva diferente🗺️.</p>
+    </section>
+
+    <!--Skills section-->
+    <section class="skills" id="skills">
+        <h2 class="skills-header">My Top Skills</h2>
+        <div class="skills-wrapper">
+            <div class="first-set animate__animated animate__pulse">
+                <img src="icons/icons8-html-5.svg" alt="" loading="lazy" class="icon icon-card">
+                <img src="icons/icons8-css3.svg" alt="" loading="lazy" class="icon icon-card">
+                <img src="icons/icons8-javascript.svg" alt="" loading="lazy" class="icon icon-card">
+            </div>
+            <div class="second-set animate__animated animate__pulse">
+                <img src="icons/icons8-bootstrap.svg" alt="" loading="lazy" class="icon icon-card">
+                <img src="icons/icons8-react-native.svg" alt="" loading="lazy" class="icon icon-card">
+                <img src="icons/icons8-git.svg" alt="" loading="lazy" class="icon icon-card">
+            </div>
+        </div>
+    </section>
+
+    <!--Proyectos-->
+    <section class="projects" id="projects">
+        <h2 class="projects-title">Some of my Recent Projects</h2>
+        <div class="Project-container">
+            <div class="project-container project-card">
+                <img src="images/replica.png" alt="Pinterest interface" loading="lazy" class="project-pic">
+                <h3 class="project-title">Pinterest interface</h3>
+                <p class="project-details">Este proyecto es un clon de la interfaz de inicio de Pinterest, creado exclusivamente con HTML5 y CCS3.</p>
+                <a href="https://pinterestcopia-one.vercel.app/" target="_blank" class="project-link">¡Check it out!</a>
+            </div>
+            <div class="project-container project-card">
+                <img src="images/replica.png" alt="Pinterest interface" loading="lazy" class="project-pic">
+                <h3 class="project-title">Pinterest interface</h3>
+                <p class="project-details">Este proyecto es un clon de la interfaz de inicio de Pinterest, creado exclusivamente con HTML5 y CCS3.</p>
+                <a href="https://pinterestcopia-one.vercel.app/" target="_blank" class="project-link">¡Check it out!</a>
+            </div>
+            <div class="project-container project-card">
+                <img src="images/replica.png" alt="Pinterest interface" loading="lazy" class="project-pic">
+                <h3 class="project-title">Pinterest interface</h3>
+                <p class="project-details">Este proyecto es un clon de la interfaz de inicio de Pinterest, creado exclusivamente con HTML5 y CCS3.</p>
+                <a href="https://pinterestcopia-one.vercel.app/" target="_blank" class="project-link">¡Check it out!</a>
+            </div>
+        </div>
+    </section>
+
+    <!--Redes Sociales-->
+    <div class="socials">
+        <a href="https://www.linkedin.com/in/estefany-m-hern%C3%A1ndez-mendieta-867b75331/" target="_blank"><img src="icons/linkedin.png" alt="linkedin" loading="lazy" class="socicon"></a>
+        <a href="https://www.instagram.com/emhm2210/" target="_blank"><img src="icons/instagram.png" alt="Instagram" loading="lazy" class="socicon"></a>
+        <a href="https://wa.me/522381718910" target="_blank"><img src="icons/whatsapp.png" alt="Whatsapp" loading="lazy" class="socicon"></a>
+    </div>
+
+    <!--Scroll button-->
+    <i class="scroll-up" id="scroll-up">
+        <img src="icons/arrow_up.gif" class="socicon arrow_up" alt="scroll up">
+        </i>
+        <!--Footer-->
+        <footer>
+            <p>Built with {🩷} by Estefany Hernández ⭐🐵</p>
+        </footer>
+    <!--JavaScript link-->
+    <script src="app.js"></script>
+//Selección de desplazar hacia arriba
+const scrollUp = document.querySelector("#scroll-up");
+//Funcionalidad de desplazar hacia arriba
+scrollUp.addEventListener("click", () => {
+    window.scrollTo({
+        top: 0,
+        left: 0,
+        behavior: "smooth",
+    });
+});
+
+</body>
+</html>
